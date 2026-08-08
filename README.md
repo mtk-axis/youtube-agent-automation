@@ -25,11 +25,13 @@ handles retries and error recovery.
 
 ## Tech Stack
 
+## Tech Stack
+
 - **Models:** Anthropic Claude via Amazon Bedrock Runtime API
   (`InvokeModel` / `Converse`)
+- **Language:** C# / .NET
+- **AWS SDK:** AWSSDK.BedrockRuntime
 - **Development environment:** Claude Code
-- **Language:** Python
-- **AWS SDK:** boto3
 - **Auth:** IAM user with least-privilege scoped permissions
 - **Region:** us-east-1
 
